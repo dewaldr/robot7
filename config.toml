@@ -1,4 +1,4 @@
-baseurl = "https://robot7.co.za"
+baseurl = "https://www.robot7.co.za/"
 DefaultContentLanguage = "en"
 title = "Robot7 Systems"
 theme = "beautifulhugo"
@@ -10,9 +10,9 @@ pygmentCodeFences = true
   logo = "img/robot7-logo.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
-  commit = false
   rss = false
   comments = false
+  commit = false
   #commit = "https://github.com/dewaldr/robot7/tree/"
 # gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
