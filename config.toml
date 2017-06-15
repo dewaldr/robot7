@@ -1,0 +1,43 @@
+baseurl = "https://robot7.co.za"
+DefaultContentLanguage = "en"
+title = "Robot7 Systems"
+theme = "beautifulhugo"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+
+[Params]
+  subtitle = "Mechatronic Solutions & Consulting"
+  logo = "img/robot7-logo.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  #commit = "https://github.com/dewaldr/robot7/tree/"
+# gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+
+[Author]
+  name = "Dewald Rossouw"
+  #linkedin = "dewald-rossouw-1a1631b" # The LinkedIn icon is set as hidden by the JavaScript. Why?  
+  email = "info@robot7.co.za"
+  github = "dewaldr"
+
+[[menu.main]]
+    name = "Projects"
+    url = "project/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+

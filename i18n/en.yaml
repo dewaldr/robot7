@@ -1,0 +1,3 @@
+# 404 page
+- id: pageNotFound
+  translation: "Sorry, the requested page does not exist."
