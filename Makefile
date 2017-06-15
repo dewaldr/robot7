@@ -1,4 +1,4 @@
-LOCALURL				= http://html5.apieskloof.net/
+LOCALURL	= http://html5.apieskloof.net/
 
 all:
 	hugo -v
