@@ -10,7 +10,7 @@ categories = ["coding","network-monitor"]
 
 A lightweight Nagios plugin to remotely monitor the CPU and GPU temperature of your overclocked Raspberry Pi.
 
-## Overclocking a Raspberry Pi
+# Overclocking a Raspberry Pi
 I have several Raspberry Pi 1 Model B's lying around and put them to use in our farm network whenever I can. Although 
 these inexpensive boards have been superceded by the much more capable <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">
 Raspberry Pi 3</a>, they are rock solid and make excellent low power servers using <a href="http://raspbian.org/">Raspbian</a> and its 
@@ -36,7 +36,7 @@ portioned off to the graphics sub-system to the minimum possible, namely 16MB.
 
 Modern versions of Raspbian include the `raspi-config` utility which makes this setup very easy. 
 
-## Passive cooling
+# Passive cooling
 The Raspberry Pi in question is only passively cooled and therefore overheating becomes a problem, especially during the hot African 
 summer months. I wrote a lightweight plugin for <a href="https://www.nagios.org/projects/nagios-core/">Nagios Core</a> to monitor the 
 system temperature.
@@ -45,7 +45,7 @@ The Nagios server, also a Raspberry Pi, monitors the health of the rest of our F
 server.
 
 
-## The plugin
+# The plugin
 I wrote the plugin in Bash as it is one of my favourite tools and you can see the internals working, as you would be able to with  a 
 classic car. I guess when I get over this silly notion I'll rewrite it in Python or C++ ;o)
 
@@ -126,7 +126,7 @@ exit 3
 
 {{< /highlight >}}
 
-## Conclusion
+# Conclusion
 It generaly seems a to be good idea to ensure operating conditions for all your systems are perfect. However, in the real world 
 a less than optimal solution usually works best and is cheaper to implement and run. I could have installed an inexpensive fan to keep
 the overclocked CPU cool, but that would have added to the running cost, electicity use and have increased the noise level in my office. 
