@@ -10,6 +10,8 @@ categories = ["coding","network-monitor"]
 
 A lightweight Nagios plugin to remotely monitor the CPU and GPU temperature of your overclocked Raspberry Pi.
 
+<!--more-->
+
 # Overclocking a Raspberry Pi
 I have several Raspberry Pi 1 Model B's lying around and put them to use in our farm network whenever I can. Although 
 these inexpensive boards have been superceded by the much more capable <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">
