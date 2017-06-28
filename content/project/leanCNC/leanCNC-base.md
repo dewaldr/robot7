@@ -1,15 +1,15 @@
 ---
-title: leanCNC base
-subtitle: Building a stable base
+projects: ["leanCNC"]
+title: The base
+subtitle: Building a stable machine base
 date: 2017-06-22
 tags: ["grbl","fabrication"]
 categories: ["cnc"]
-#bigimg: [{src: "/img/leancnc-big.png", desc: ""}]
 weight: 4
 ---
 
-The base of the CNC should provide a rigid, level, planar & vibrationless platform to mount the the moving parts of
-the machine. My design assumes that the base & the floor it is standing on is imperfect, and provides methods for 
+The base of the CNC machine should provide a rigid, level, planar & vibration-free platform to mount the the moving parts of
+the machine. My design assumes that the base & the floor it is resting upon is imperfect, and provides methods for 
 adjustment where the precision parts touch the base frame.
 
 <!--more-->
@@ -17,13 +17,16 @@ adjustment where the precision parts touch the base frame.
 ## Materials
 
 I decided to build the base out of steel because it is my favourite material to work with and would,
-provided I was careful, give me a strong, stable & light structure to build the rest of the machine on.
+provided I was careful, give me a strong, stable & light structure to build the rest of the machine on. 
+The wall thickness of the steel tubing is actually not that important, but I chose the thicker 2mm 
+version as it is easier to weld with a stick welder.
 
-
-- 2x38x76mm rectangular steel tubing
+- 2x38x76mm (1½x3inch) rectangular steel tubing
 - 2x38x38mm rectangular steel tubing
 - 4x38x38mm flat steel
 - 4 x M10 hex nut
+
+**Note:** 38x76mm = 1½x3inch
 
 ## Cutting
 
@@ -41,14 +44,12 @@ I was pleasantly surprised by the quality of my welds, which I ascribe to regula
 
 It is essential to first tack-join the corners of the frame before permanently welding the joins.
 
-Tip: when weldeing square or rectangular tubing, only weld the top and the bottom of the join for a 
-much cleaner appearance.
-
+**Tip:** When welding square or rectangular tubing, only weld the top and the bottom of the join (i.e. not the inside corners
+of the join) for a cleaner result. It is also easier to clean up these welds with an angle grinder.
 
 ## Finishing
 
-The frame was spray-painted with a coat of Rex Oxide primer 
-
+The base frame was first spray-painted with a coat of Rex Oxide primer, followed by a 2 coats of 2K automotive paint. 
 
 ## Levelling
 

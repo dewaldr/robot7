@@ -4,6 +4,10 @@ title = "Robot7 Systems"
 theme = "beautifulhugo"
 pygmentsUseClasses = true
 pygmentCodeFences = true
+preserveTaxonomyNames = true
+
+[taxonomies]
+project = "projects"
 
 [Params]
   subtitle = "Mechatronic Solutions & Consulting"
@@ -28,7 +32,7 @@ pygmentCodeFences = true
 
 [[menu.main]]
     name = "Projects"
-    url = "project/"
+    url = "projects/"
     weight = 1
 
 [[menu.main]]
